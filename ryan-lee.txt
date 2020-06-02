@@ -138,7 +138,7 @@ Stretch Questions
             position: absolute; makes an element be positioned relative to its first positioned (not static) ancestor
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-            Setting the display:inline-block; or display:block; or display:flex  then a dev could set a max-width 
+            Setting the display:inline-block; or display:block; or display:flex   then a dev could set a max-width 
 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
             <div>   - block

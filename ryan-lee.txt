@@ -131,10 +131,29 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+            inline elements don't start on a new line, and their height/width can't be adjusted. 
+            block elements start on a new line and occupy all the available space. their height/width can be adjusted
+
     2. What happens when an element is positioned absolutely? 
+            position: absolute; makes an element be positioned relative to its first positioned (not static) ancestor
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+            Setting the display:inline-block; or display:block; or display:flex  then a dev could set a max-width 
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+            <div>   - block
+            <p>     - block
+            <h1-h6> - block
+
+            <span>  - inline
+            <a>     - inline
+
+            <button> - inline-block
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+            The box model is a representation of how inline-block and block elements have padding, margin and borders that can be adjusted
+            When setting height/width, we have to make sure that we are taking into account the padding, margins and borders that we've set because they will be added onto the height/width
+
 
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
   - [ ] Research and understand what a `merge conflict` is and how to resolve it.
